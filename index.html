@@ -1,15 +1,48 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeadHunters</title>
+    <title>
+        HeadHunters
+    </title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-around;
+            background-image: url("logo.png");
+            background-size: 600px;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            height: 500px;
+        }
+
+        .boxloading {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .loading {
+            background-image: url("loading.gif");
+            display: flex;
+            justify-content: space-around;
+            background-size: 300px;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            height: 90px;
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
-        <h1>
-            HeadHunters em Construção
-        </h1>
-            
+    <div class="box"></div>
+    <div class="boxloading">
+        <div class="loading"></div>
+    </div>
 </body>
+
 </html>
